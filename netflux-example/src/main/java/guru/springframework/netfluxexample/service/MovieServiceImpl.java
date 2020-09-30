@@ -34,7 +34,7 @@ public class MovieServiceImpl implements MovieService {
 	}
 
 	@Override
-	public Flux<Movie> getAllMovied() {
+	public Flux<Movie> getAllMovies() {
 		return movieRepository.findAll();
 	}
 

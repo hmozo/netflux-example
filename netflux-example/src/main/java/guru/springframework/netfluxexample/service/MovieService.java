@@ -11,5 +11,5 @@ public interface MovieService {
 	
 	Mono<Movie> getMovieById(String id);
 	
-	Flux<Movie> getAllMovied();
+	Flux<Movie> getAllMovies();
 }
